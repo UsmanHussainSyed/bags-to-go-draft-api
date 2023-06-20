@@ -13,7 +13,7 @@ app.post('/createdraft',async (req,res)=>{
          originalUnitPrice:5,
         }]
         const shop = 'bagstogogo.myshopify.com';
-        const accessToken = process.env.TOKEN;
+        const accessToken = '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';
 const url = `https://${shop}/admin/api/2023-04/graphql.json`;
 const headers = {
   'Content-Type': 'application/json',
